@@ -1,0 +1,11 @@
+sku,model,scope,eligible,reason,WAPE,MAE,bias,converged,finite,stationary,invertible
+YO-029,Fourier + Ridge,selection,True,ok,10.504389726991716,117.85049907874122,-80.90141593787139,,,,
+YO-029,SARIMAX estacional,selection,True,ok,19.51173370702152,218.90539241469227,-199.5285625588204,True,True,True,True
+YO-029,Fourier + ARMA (DHR),selection,True,ok,8.595337052844869,96.43251895204206,5.396702331531439,True,True,True,True
+YO-029,Fourier + Ridge,holdout,True,ok,11.0021012283399,94.29717594456322,-92.3766505282337,,,,
+YO-029,SARIMAX estacional,holdout,True,ok,10.37658376170031,88.93596999090641,-75.5763715035384,True,True,True,True
+YO-029,Fourier + ARMA (DHR),holdout,True,ok,11.264299195899117,96.544431024852,83.63487231740807,True,True,True,True
+YO-029,Seasonal Naive,selection,True,ok,13.303127089058902,149.25,7.75,,,,
+YO-029,Seasonal Naive,holdout,True,ok,11.084103062712687,95.0,11.166666666666666,,,,
+YO-029,Combinación (promedio),selection,True,ok,10.480622777861992,117.58385371529666,-66.82081904129005,,,,
+YO-029,Combinación (promedio),holdout,True,ok,7.897276603146498,67.68624155280143,-18.287870761924342,,,,

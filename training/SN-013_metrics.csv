@@ -1,0 +1,11 @@
+sku,model,scope,eligible,reason,WAPE,MAE,bias,converged,finite,stationary,invertible
+SN-013,Fourier + Ridge,selection,True,ok,12.298008594475382,119.0242265135309,91.81063867317977,,,,
+SN-013,SARIMAX estacional,selection,True,ok,9.748777113207018,94.3519144939886,-25.69212879732068,True,True,True,True
+SN-013,Fourier + ARMA (DHR),selection,True,ok,50.83189256668042,491.968000224522,491.968000224522,True,True,True,True
+SN-013,Fourier + Ridge,holdout,True,ok,10.019240573074548,77.67416254276044,-4.322448401058854,,,,
+SN-013,SARIMAX estacional,holdout,True,ok,18.0182627054294,139.68658162384145,-134.35137028016933,True,True,True,True
+SN-013,Fourier + ARMA (DHR),holdout,False,converged,13.853172302349387,107.39671827396364,87.80406733317159,False,True,True,True
+SN-013,Seasonal Naive,selection,True,ok,24.93542276562769,241.33333333333331,-239.0,,,,
+SN-013,Seasonal Naive,holdout,True,ok,32.666881651080296,253.25,-253.25,,,,
+SN-013,Combinación (promedio),selection,True,ok,10.72541006303767,103.80409372676625,-57.62716337471361,,,,
+SN-013,Combinación (promedio),holdout,True,ok,16.851502469363783,130.64127289374275,-130.64127289374275,,,,

@@ -1,0 +1,82 @@
+{
+  "version": "integrado-h12-exante-v1",
+  "source_sha256": "03b68f32303f5b1474561b0aa68db608a583793c95a2f000cb3ab78f104a9bb4",
+  "sku": "SN-013",
+  "winner": "SARIMAX estacional",
+  "params": {
+    "Fourier + Ridge": {
+      "fourier_k": 2,
+      "quadratic": true,
+      "ridge_alpha": 100.0
+    },
+    "Fourier + ARMA (DHR)": {
+      "fourier_k": 2,
+      "dhr_order": [
+        1,
+        0,
+        1
+      ]
+    },
+    "SARIMAX estacional": {
+      "sarimax_order": [
+        1,
+        0,
+        0
+      ],
+      "sarimax_seasonal_order": [
+        1,
+        0,
+        0,
+        52
+      ]
+    },
+    "Seasonal Naive": {},
+    "Combinación (promedio)": {
+      "members": [
+        "Seasonal Naive",
+        "Fourier + Ridge",
+        "SARIMAX estacional"
+      ]
+    }
+  },
+  "history_start": "2023-02-06",
+  "history_end": "2024-12-23",
+  "n_weeks": 99,
+  "selection_WAPE": 9.748777113207018,
+  "holdout_WAPE": 18.0182627054294,
+  "holdout_MAE": 139.68658162384145,
+  "final_diagnostics": {
+    "Seasonal Naive": {
+      "eligible": true,
+      "reason": "ok"
+    },
+    "Fourier + Ridge": {
+      "eligible": true,
+      "reason": "ok"
+    },
+    "SARIMAX estacional": {
+      "converged": true,
+      "finite": true,
+      "stationary": true,
+      "invertible": true,
+      "eligible": true,
+      "reason": "ok"
+    },
+    "Fourier + ARMA (DHR)": {
+      "converged": true,
+      "finite": true,
+      "stationary": true,
+      "invertible": true,
+      "eligible": true,
+      "reason": "ok"
+    },
+    "Combinación (promedio)": {
+      "eligible": true,
+      "reason": "promedio de modelos admisibles"
+    }
+  },
+  "calibration_end": "2024-07-08",
+  "selection_end": "2024-09-30",
+  "holdout_end": "2024-12-23",
+  "naive_repair": "Seasonal Naive evaluado con los mismos cortes; regla de ganador sin cambios."
+}
