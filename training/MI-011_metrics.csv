@@ -1,0 +1,11 @@
+sku,model,scope,eligible,reason,WAPE,MAE,bias,converged,finite,stationary,invertible
+MI-011,Fourier + Ridge,selection,True,ok,54.45708159897259,468.01323544183697,468.01323544183697,,,,
+MI-011,SARIMAX estacional,selection,False,invertible,6.010054109457033,51.65140669235865,-46.76361278981231,True,True,True,False
+MI-011,Fourier + ARMA (DHR),selection,True,ok,50.79521850557407,436.54257370665454,436.54257370665454,True,True,True,True
+MI-011,Fourier + Ridge,holdout,True,ok,28.897923432045264,205.29566438182155,205.29566438182155,,,,
+MI-011,SARIMAX estacional,holdout,False,invertible,30.1188579629764,213.9693867786448,29.36394655468854,True,True,True,False
+MI-011,Fourier + ARMA (DHR),holdout,True,ok,59.64411336810444,423.7217220525753,423.7217220525753,True,True,True,True
+MI-011,Seasonal Naive,selection,True,ok,54.45554154950063,468.0,-468.0,,,,
+MI-011,Seasonal Naive,holdout,True,ok,24.58651026392962,174.66666666666666,-174.66666666666666,,,,
+MI-011,Combinación (promedio),selection,True,ok,20.538034963894393,176.5072954855357,145.51860304949716,,,,
+MI-011,Combinación (promedio),holdout,True,ok,24.258269135922042,172.33478698644618,151.45023992257674,,,,

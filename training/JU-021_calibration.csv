@@ -1,0 +1,33 @@
+sku,model,config,eligible,reason,WAPE,MAE,converged,finite,stationary,invertible
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": false, ""ridge_alpha"": 0.1}",True,ok,10.198596792744596,112.56701209991849,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": false, ""ridge_alpha"": 1.0}",True,ok,10.104596343994931,111.52948214684406,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": false, ""ridge_alpha"": 10.0}",True,ok,9.372948959578588,103.45392414134866,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": false, ""ridge_alpha"": 100.0}",True,ok,7.824754131358938,86.36572372487427,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": true, ""ridge_alpha"": 0.1}",True,ok,9.944275874146893,109.75994496089632,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": true, ""ridge_alpha"": 1.0}",True,ok,10.481563793324502,115.6902603688192,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": true, ""ridge_alpha"": 10.0}",True,ok,11.81593705733212,130.41840527030328,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 1, ""quadratic"": true, ""ridge_alpha"": 100.0}",True,ok,10.11554338373687,111.65031009799571,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": false, ""ridge_alpha"": 0.1}",True,ok,9.072503744537926,100.13776008033736,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": false, ""ridge_alpha"": 1.0}",True,ok,8.999900925379139,99.33640646387224,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": false, ""ridge_alpha"": 10.0}",True,ok,8.443928201624166,93.19985752542672,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": false, ""ridge_alpha"": 100.0}",True,ok,7.604935424197597,83.93947474458099,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": true, ""ridge_alpha"": 0.1}",True,ok,8.723102492146005,96.28124375706152,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": true, ""ridge_alpha"": 1.0}",True,ok,9.219552840251572,101.76081447427674,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": true, ""ridge_alpha"": 10.0}",True,ok,10.685246228675934,117.93840524901064,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 2, ""quadratic"": true, ""ridge_alpha"": 100.0}",True,ok,9.946427370722628,109.783692104351,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": false, ""ridge_alpha"": 0.1}",True,ok,7.377369877487176,81.4277200227647,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": false, ""ridge_alpha"": 1.0}",True,ok,7.388369074886739,81.54912366406239,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": false, ""ridge_alpha"": 10.0}",True,ok,7.257433426813065,80.1039214484492,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": false, ""ridge_alpha"": 100.0}",True,ok,7.1877061577639125,79.33430671631919,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": true, ""ridge_alpha"": 0.1}",True,ok,6.773752146749042,74.76528931974255,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": true, ""ridge_alpha"": 1.0}",True,ok,7.501027197482886,82.79258769221735,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": true, ""ridge_alpha"": 10.0}",True,ok,9.222500401041897,101.79334817649992,,,,
+JU-021,Fourier + Ridge,"{""fourier_k"": 3, ""quadratic"": true, ""ridge_alpha"": 100.0}",True,ok,9.570937679671294,105.63922463937192,,,,
+JU-021,Fourier + ARMA (DHR),"{""fourier_k"": 2, ""dhr_order"": [1, 0, 0]}",True,ok,5.234705723036026,57.77806441801013,True,True,True,True
+JU-021,Fourier + ARMA (DHR),"{""fourier_k"": 2, ""dhr_order"": [0, 0, 1]}",True,ok,6.2772480127475525,69.28512494070111,True,True,True,True
+JU-021,Fourier + ARMA (DHR),"{""fourier_k"": 2, ""dhr_order"": [1, 0, 1]}",True,ok,5.3840247559533925,59.42617324383557,True,True,True,True
+JU-021,SARIMAX estacional,"{""sarimax_order"": [1, 0, 0], ""sarimax_seasonal_order"": [1, 0, 0, 52]}",True,ok,9.623955475946966,106.22440856576463,True,True,True,True
+JU-021,SARIMAX estacional,"{""sarimax_order"": [1, 0, 0], ""sarimax_seasonal_order"": [0, 0, 1, 52]}",False,invertible,8.96050541522594,98.90157852055631,True,True,True,False
+JU-021,SARIMAX estacional,"{""sarimax_order"": [1, 0, 1], ""sarimax_seasonal_order"": [1, 0, 0, 52]}",False,invertible,12.142605073433138,134.02400349801826,True,True,True,False
+JU-021,SARIMAX estacional,"{""sarimax_order"": [1, 0, 1], ""sarimax_seasonal_order"": [0, 0, 1, 52]}",False,invertible,8.393244782049468,92.640439281871,True,True,True,False
+JU-021,Seasonal Naive,{},True,ok,25.118912797281993,277.25,,,,
