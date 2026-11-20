@@ -1,0 +1,31 @@
+sku,ganador_anterior,ganador_nuevo,miembros,WAPE_comprobacion_anterior,WAPE_comprobacion_nuevo
+JU-021,Seasonal Naive,Seasonal Naive,Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),6.193372222911754,6.193372222911754
+MI-002,Seasonal Naive,Seasonal Naive,Seasonal Naive + Fourier + Ridge + Fourier + ARMA (DHR),11.425026247971749,11.425026247971749
+MI-006,Fourier + ARMA (DHR),Fourier + ARMA (DHR),Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),8.941263048765377,8.941263048765377
+MI-008,Fourier + Ridge,Combinación (promedio),Seasonal Naive + Fourier + Ridge,51.48110335468871,14.604006676589766
+MI-011,Fourier + ARMA (DHR),Combinación (promedio),Seasonal Naive + Fourier + Ridge + Fourier + ARMA (DHR),59.64411336810444,24.258269135922042
+MI-022,SARIMAX estacional,Combinación (promedio),Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),24.255361940220485,8.783241303495696
+MI-023,Seasonal Naive,Combinación (promedio),Seasonal Naive + Fourier + Ridge + Fourier + ARMA (DHR),8.124419684308263,7.648620401301825
+MI-026,SARIMAX estacional,Combinación (promedio),Seasonal Naive + Fourier + Ridge + SARIMAX estacional,11.089900515906978,8.670161851587169
+RE-004,Seasonal Naive,Seasonal Naive,Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),11.221046172725876,11.221046172725876
+RE-007,Fourier + Ridge,Fourier + Ridge,Seasonal Naive + Fourier + Ridge + Fourier + ARMA (DHR),11.141593006580372,11.141593006580372
+RE-015,Fourier + ARMA (DHR),Fourier + ARMA (DHR),Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),10.005997568184895,10.005997568184895
+RE-017,SARIMAX estacional,SARIMAX estacional,Seasonal Naive + Fourier + Ridge + SARIMAX estacional,8.269018495749513,8.269018495749513
+RE-025,SARIMAX estacional,Combinación (promedio),Seasonal Naive + Fourier + Ridge + SARIMAX estacional,12.567249743751534,8.112751094448976
+SN-010,Fourier + Ridge,Fourier + Ridge,Seasonal Naive + Fourier + Ridge,5.696381465073656,5.696381465073656
+SN-013,SARIMAX estacional,SARIMAX estacional,Seasonal Naive + Fourier + Ridge + SARIMAX estacional,18.0182627054294,18.0182627054294
+SN-019,Fourier + Ridge,Fourier + Ridge,Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),6.307523258717893,6.307523258717893
+SN-027,SARIMAX estacional,SARIMAX estacional,Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),11.663584393033949,11.663584393033949
+SN-028,Seasonal Naive,Combinación (promedio),Seasonal Naive + Fourier + Ridge,15.822072072072071,22.04213979422365
+SN-030,Fourier + Ridge,Combinación (promedio),Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),9.166123949561298,15.109296346769229
+YO-001,Fourier + Ridge,Fourier + Ridge,Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),12.156045554045038,12.156045554045038
+YO-003,Seasonal Naive,Seasonal Naive,Seasonal Naive + Fourier + Ridge + SARIMAX estacional,7.303695150115473,7.303695150115473
+YO-005,Seasonal Naive,Seasonal Naive,Seasonal Naive + Fourier + Ridge + SARIMAX estacional,12.654679040989944,12.654679040989944
+YO-009,Seasonal Naive,Combinación (promedio),Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),11.372735938989514,8.530817447363228
+YO-012,Fourier + Ridge,Fourier + Ridge,Seasonal Naive + Fourier + Ridge + SARIMAX estacional,10.877349649585527,10.877349649585527
+YO-014,Fourier + Ridge,Fourier + Ridge,Seasonal Naive + Fourier + Ridge + SARIMAX estacional,7.995712941922016,7.995712941922016
+YO-016,Fourier + ARMA (DHR),Fourier + ARMA (DHR),Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),10.00011204429348,10.00011204429348
+YO-018,Seasonal Naive,Combinación (promedio),Seasonal Naive + Fourier + Ridge,18.070792796522458,18.55628501422005
+YO-020,Seasonal Naive,Seasonal Naive,Seasonal Naive + Fourier + Ridge + SARIMAX estacional,10.939237690830048,10.939237690830048
+YO-024,Fourier + Ridge,Fourier + Ridge,Seasonal Naive + Fourier + Ridge,18.18667975981408,18.18667975981408
+YO-029,Fourier + ARMA (DHR),Fourier + ARMA (DHR),Seasonal Naive + Fourier + Ridge + SARIMAX estacional + Fourier + ARMA (DHR),11.264299195899117,11.264299195899117

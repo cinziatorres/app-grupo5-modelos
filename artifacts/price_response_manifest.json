@@ -1,0 +1,16 @@
+{
+  "version": "precio-semanal-exposicion-v3",
+  "source_sha256": "03b68f32303f5b1474561b0aa68db608a583793c95a2f000cb3ab78f104a9bb4",
+  "daily_sha256": "ec91eb23b62ec9836d0923f27cadb7d1d57c4185e111144a1e54feb569c4e61d",
+  "public_zip_sha256": "c2ad83e0964513932fbe5ee4f05669567adeed95ac901dd0b3c678bda716ca21",
+  "dataset_version": 16,
+  "sku_count": 30,
+  "as_of": "2024-12-23",
+  "weekly_source_unchanged": true,
+  "model": "Media Poisson de unidades semanales; suma exacta de exposiciones diarias con disponibilidad, precio, promoción, pack y día; tendencia/Fourier anual K2 y efectos de canal×región. Sin stock/plazo contemporáneos como regresores.",
+  "constraint": "epsilon <= 0 en modelo no positivo, ajustando conjuntamente todos los parámetros; no inversión de signo.",
+  "selection": "Sin precio o no positivo. Dos bloques H12 anteriores al holdout H12; efecto negativo preholdout con Holm30, pendiente negativa en ambos orígenes y mejora de deviance; selección independiente del holdout final.",
+  "zero_meaning": "Modelo sin precio seleccionado: no efecto respaldado con estos datos. No demuestra demanda real inelástica; no identifica efectos causales.",
+  "supported_sku": [],
+  "scope": "Respuesta predictiva bajo restricción económica. Disponibilidad describe ventas observadas; no reconstruye demanda perdida ni imputa días ausentes."
+}

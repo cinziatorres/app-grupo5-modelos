@@ -1,0 +1,14 @@
+{
+  "version": "precio-sensibilidad-condicionada-v4",
+  "source_sha256": "03b68f32303f5b1474561b0aa68db608a583793c95a2f000cb3ab78f104a9bb4",
+  "scenario_csv_sha256": "d8cf716575e5bf5ebfb4ea6a3ec580150f436bf7132c589c8b97498f6f4b70d9",
+  "response_csv_sha256": "7ad4f114bdf6f6a2de7fdff962a0d15ac88c335bbdffa51a11a0c098c0414024",
+  "response_manifest_sha256": "ec1c9acaf7a9d1c9c52719e21effa578375ef9b6f8e23f29d24eb2defc882b24",
+  "sku_count": 30,
+  "estimation_model_version": "precio-semanal-exposicion-v3",
+  "model": "Aproximación normal del estimador semanal libre y su error agrupado; condicionada a epsilon <= 0. Media de la distribución para la curva central y sorteos de la misma para sensibilidad.",
+  "prior": "Densidad plana impropia en (-infinito, 0]; posterior resumida propia. Supuesto económico de signo; ninguna magnitud fija impuesta.",
+  "evidence": "price_supported conserva el resultado confirmatorio v3. No decide si se simula. Los intervalos libres y la validación se conservan.",
+  "scope": "Simulación académica condicional. No es ajuste bayesiano completo de la cuasiverosimilitud ni elasticidad causal identificada. El signo y la media negativa cuando hay señal débil dependen del supuesto. No contiene una masa puntual en cero ni identifica probabilidad de inelasticidad exacta.",
+  "limitations": "Normalidad aproximada del estimador; error agrupado no resuelve toda dependencia temporal/endogeneidad. Sin información de magnitud, mayor error puede aumentar la sensibilidad central al condicionar por signo; no indica mayor evidencia."
+}

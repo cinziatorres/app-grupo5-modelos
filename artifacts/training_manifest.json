@@ -1,0 +1,11 @@
+{
+  "version": "integrado-h12-exante-v1",
+  "source_sha256": "03b68f32303f5b1474561b0aa68db608a583793c95a2f000cb3ab78f104a9bb4",
+  "sku_count": 30,
+  "as_of": "2024-12-23",
+  "calibration_horizon": 4,
+  "selection_horizon": 12,
+  "holdout_horizon": 12,
+  "exogenous_policy": "Precio/promoción últimos cuatro datos disponibles al origen; calendario de prueba tomado como programado y conocido.",
+  "winner_policy": "WAPE/MAE de selección entre candidatos estables en selección, comprobación y ajuste final; el error holdout no determina ganador. La comprobación de estabilidad en holdout restringe admisibilidad."
+}
